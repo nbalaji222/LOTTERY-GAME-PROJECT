@@ -1,0 +1,2 @@
+# LOTTERY-GAME-PROJECT
+Lottery game using HTML, CSS and JAVASCRIPT
