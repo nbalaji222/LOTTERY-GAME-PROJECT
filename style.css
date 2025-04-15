@@ -1,0 +1,70 @@
+h1 {
+  display: flex;
+  justify-content: center;
+}
+
+.lottery-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: snow;
+}
+
+img {
+  height: 400px;
+  width: 550px;
+}
+
+.box {
+  height: 40px;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+  background-color: antiquewhite;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.lottery-sheet-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; 
+}
+
+#result {
+  background-color: aqua;
+  color: black;
+  padding: 2px 10px;
+}
+
+button {
+  width: 120px;
+  background-color: blue;
+  color: white;
+  border-radius: 4px;
+  border: none;
+  padding: 4px 10px;
+  margin: 5px;
+}
+
+button:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+button:active {
+  opacity: 0.4;
+}
+
+.winning-box {
+  background-color: green;
+  color: white;
+}
+
+.highlighted-box {
+  background-color: brown;
+  color: white;
+}
